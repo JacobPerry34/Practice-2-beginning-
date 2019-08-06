@@ -1,0 +1,70 @@
+.article__representative{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.basic__info{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-flow: wrap;
+}
+.image__rep{
+ 
+    justify-content: space-evenly;
+    text-align: center;
+    background-color:blue;
+}
+
+.name__rep{
+    width:50vw;
+    color:black;
+    font-family: Helvetica, sans-serif;
+    background-color: blue;
+    border-radius: 3%;
+    margin: auto;
+    padding: 2em;
+    border-color: yellow;
+    text-align: center;
+
+}
+
+.district__info{
+    width:50vw;
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+
+    justify-content:space-evenly;
+    background-color: blue;
+
+}
+
+.political__affiliation{
+    text-align:center;
+    height:20vh;
+    width:50vw;
+    background-color:blue;
+
+}
+
+.committee__list{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.passed__legislation{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: center
+}
+
+.list__legislation{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ 
+
